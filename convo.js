@@ -2,4 +2,5 @@ function hello() {
   return 'Hello World';
 }
 
-hello();
+const greeting = hello();
+console.log(greeting);
