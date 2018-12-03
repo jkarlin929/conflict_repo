@@ -2,6 +2,7 @@ function hello() {
   return 'Hello World';
 }
 
+<<<<<<< HEAD
 hello();
 
 function bye() {
@@ -9,3 +10,7 @@ function bye() {
 }
 
 bye();
+=======
+const greeting = hello();
+console.log(greeting);
+>>>>>>> example
